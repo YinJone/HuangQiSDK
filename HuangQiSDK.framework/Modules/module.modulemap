@@ -1,0 +1,6 @@
+framework module HuangQiSDK {
+  umbrella header "HuangQiSDK.h"
+
+  export *
+  module * { export * }
+}

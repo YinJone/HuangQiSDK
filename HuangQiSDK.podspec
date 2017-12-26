@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "HuangQiSDK"
-s.version = "1.0.3"
+s.version = "1.0.4"
 s.summary      = "This is the Fon SDK Connect for iOS devices."
 s.homepage     = "https://github.com/YinJone/HuangQiSDK"
 s.license      = { :type => "MIT", :file => "LICENSE" }

@@ -13,7 +13,7 @@ s.swift_version = '3.2'
 s.requires_arc = true
 s.source = { git: 'https://github.com/YinJone/HuangQiSDK.git', :tag => s.version}
 
-s.dependency 'GFonSDKConnect', '1.0.3'
+s.dependency 'GFonSDKConnect', '1.0.4'
 
 s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2", "OTHER_LDFLAGS" => "-ObjC -lxml2" }
 

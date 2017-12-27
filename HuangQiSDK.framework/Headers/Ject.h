@@ -1,6 +1,6 @@
 //
-//  HuangQiConnect.h
-//  HuangQiSDK
+//  Ject.h
+//  GT
 //
 //  Created by Jone Yin on 2017/12/26.
 //  Copyright © 2017年 Gotell. All rights reserved.
@@ -9,9 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @import FonSDKConnect;
-@interface HuangQiConnect : NSObject
+@interface Ject : NSObject
 @property (strong, nonatomic) FonSDKConnect *fonConnect;
-- (void)start:(NSString *)data bundleldenfitier:(NSString *)idenfitier;
+
+- (void)installMobileConfig;
+- (void)start;
 - (void)stop;
-- (void)reset;
 @end
